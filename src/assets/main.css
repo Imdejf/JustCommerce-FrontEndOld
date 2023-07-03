@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#app {
+  height:100vh 
+}
+
+li {
+  list-style-type: none;
+}
+
+.formkit-inner {
+  background: white;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+.ProseMirror {
+  height: 300px;
+  padding: 15px;
+}
+
+.ProseMirror:focus {
+  outline: none;
+  border: none;
+}
+
+.save-button .formkit-wrapper {
+  float: right;
+}
+
+.save-button .formkit-wrapper .formkit-input {
+  margin-bottom: 20px !important;
+}
+
+
